@@ -1,18 +1,15 @@
-# test-gitbash
-
-git init - called to create by Default master Branch
-
-git branch Branchname to create a branch.
-
-git status- to check curernt status
-
-git add fileName to add modified file
-
-git commit -m 'type your message'
-
-git push origin branchName- to push latest changes to remote branch
-
-
-git checkout branchName- to switch to another Branch
-
-git merge anotherBranch which is to be merged to current Branch.
+ git config --global user.name "rajforsha"
+git config --global user.email "rajshashi3@gmail.com"
+git config --global push.default matching
+git config --global alias.co checkout
+$ git init
+ git status
+ git add .
+git rm --cached -r node_modules
+ ssh-keygen -t  rsa -b 4096 -c "rajshashi3@gmail.com" cat ~/.ssh/id_rsa.pub
+ cat ~/.ssh/id_rsa.pub
+git remote add origin https://github.com/rajforsha/nodejs.git
+ git push -u origin master
+ git commit -a -m "updated name"
+ git push -u origin master
+ git config --global push.default matching
